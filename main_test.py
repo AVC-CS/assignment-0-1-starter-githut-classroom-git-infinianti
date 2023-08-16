@@ -27,7 +27,7 @@ def test_main_1():
     # ret = main.main()
 
     regex_string = r'[\w,\W]*[h,H]ello'
-    regex_string += r'[\w,\W]*[w,W]orld'
+    regex_string += r'[\w,\W]*[p,P]ython'
     regex_string += r'[\w,\W]*'
     print(regex_string)
     res = re.search(regex_string, result)
